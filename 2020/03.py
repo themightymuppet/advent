@@ -2,7 +2,6 @@ map = []
 def get_map(file):
     with open(file) as f:
         for line in f:
-            sq_map = (323//len(line) + 1)
             map.append((line.replace("\n", "")) * 200)
     
 def travel(map):
