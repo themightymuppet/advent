@@ -21,7 +21,6 @@ def get_pws(file):
 #     db_pw = split_pass[4]
 #     pattern = re.findall(char_rule, db_pw)
 
-    
 #     if char_rule in db_pw and \
 #         len(pattern) >= min_rule and \
 #         len(pattern) <= max_rule:
@@ -41,4 +40,3 @@ def verify_pw(pw):
                 return True
 
 print(get_pws('input.txt'))
-
